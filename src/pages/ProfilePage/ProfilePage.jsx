@@ -1,6 +1,7 @@
 // npm modules
 import { useState, useEffect } from "react"
 import { Link, useParams } from "react-router-dom"
+import React from "react"
 
 // css
 import styles from './ProfilePage.module.css'
@@ -129,12 +130,12 @@ const ProfilePage = (props) => {
               savedProfilePosts
                 .filter((post) => post !== null)
                 .map((post) => (
-                  <>
+                  <React.Fragment key={post._id}>
                     <PostCard key={post._id} post={post} />
                     <button onClick={() => handleDeleteSavedPost(profileId, post._id)}>
                       <img src={deleteIcon} className={styles.deleteIcon} />
                     </button>
-                  </>
+                  </React.Fragment>
                 ))}
           </div>
         </div>
