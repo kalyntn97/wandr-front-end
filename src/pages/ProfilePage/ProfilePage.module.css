@@ -10,14 +10,14 @@
 .ppInfo,
 .profilePosts,
 .savedPosts {
-  flex: 1 1 50%; 
-  box-sizing: border-box; 
-  padding: 20px; 
+  flex: 1 1 50%;
+  box-sizing: border-box;
+  padding: 20px;
 }
 
 .ppHeader {
-  height: 10vh; 
-  flex-basis: 100%; 
+  height: 10vh;
+  flex-basis: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,7 +40,7 @@
 }
 
 .ppAvatar {
-  flex-basis: 20%; 
+  flex-basis: 20%;
 }
 
 .ppAvatar img {
@@ -50,8 +50,6 @@
   margin-left: 13%;
 }
 
-
-
 .editProfileButton button {
   font-family: 'Ortica Linear', sans-serif;
   color: black;
@@ -60,12 +58,12 @@
   width: 130px;
   height: 60px;
   cursor: pointer;
-  border-left: none; 
+  border-left: none;
   border-right: none;
   outline: none;
   background: transparent;
   text-transform: uppercase;
-  border-radius: 0; 
+  border-radius: 0;
   font-size: 10px;
   font-weight: 100;
   color: black;
@@ -74,14 +72,13 @@
   margin-top: 20px;
 }
 
-
 .editProfileButton button:hover {
   color: white;
   background-color: black;
 }
 
 .ppBio {
-  flex-basis: 60%; 
+  flex-basis: 60%;
   max-width: 600px;
   height: 250px;
   overflow: auto;
@@ -102,7 +99,7 @@
 }
 
 .followersContainer {
-  flex-basis: 15%; 
+  flex-basis: 15%;
   line-height: 5px;
   padding: 10px;
   padding-top: 6px;
@@ -114,10 +111,9 @@
   margin-top: 3%;
 }
 
-
 .profilePosts,
 .savedPosts {
-  flex-basis: 100%; 
+  flex-basis: 100%;
 }
 
 .profilePosts {
@@ -189,7 +185,6 @@
   border-bottom: solid 1px black;
 }
 
-
 .savedPosts {
   display: flex;
   flex-direction: row;
@@ -205,4 +200,3 @@
 .deleteIcon {
   width: 10px;
 }
-

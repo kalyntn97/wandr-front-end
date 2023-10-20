@@ -43,7 +43,7 @@ const LoginPage = ({ handleAuthEvt }) => {
     return !(email && password)
   }
 
-  
+
   return (
     <div className={styles.loginContainer}>
       <h1>LOG IN</h1>

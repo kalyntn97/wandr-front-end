@@ -5,15 +5,14 @@
   height: 100vh;
 }
 
-
 .followerFollowingContainer {
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   align-items: flex-start;
 }
 
 .followingContainer {
-  width: 100%; 
+  width: 100%;
   padding: 20px;
   margin-right: 50%;
 }
@@ -23,7 +22,7 @@
 }
 
 .ppAvatar {
-  flex-basis: 20%; 
+  flex-basis: 20%;
 }
 
 .ppAvatar img {
@@ -47,12 +46,12 @@
   width: 80px;
   height: 50px;
   cursor: pointer;
-  border-left: none; 
+  border-left: none;
   border-right: none;
   outline: none;
   background: transparent;
   text-transform: uppercase;
-  border-radius: 0; 
+  border-radius: 0;
   font-size: 15px;
   font-weight: 100;
   padding: 10px 10px;

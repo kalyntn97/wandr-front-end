@@ -45,7 +45,7 @@ const EditProfile = (props) => {
     <div className={styles.editProfileContainer}>
       <h1>Profile Settings</h1>
       <p className={styles.editMessage}>{message}</p>
-      <form autoComplete="off" onSubmit={handleSubmit}  className={styles.editProfileForm} >
+      <form autoComplete="off" onSubmit={handleSubmit} className={styles.editProfileForm} >
         <div className={styles.ppAvatar}>
           {profileFormData.photo ? (
             <img src={profileFormData.photo} alt="profile image" className={styles.editAvatar} />
@@ -53,7 +53,6 @@ const EditProfile = (props) => {
             <img src={avatar} alt="avatar" />
           )}
         </div>
-
         <div className={styles.labelInputContainer}>
           <label>Change Profile Picture</label>
           <input
@@ -63,14 +62,13 @@ const EditProfile = (props) => {
             ref={imgInputRef}
           />
         </div>
-        
         <div className={styles.labelInputContainer}>
           <label>Name</label>
           <input
             type="text"
             value={profileFormData.name}
             name="name"
-            onChange={handleChange} 
+            onChange={handleChange}
           />
         </div>
         <div className={styles.labelInputContainer}>
@@ -93,7 +91,6 @@ const EditProfile = (props) => {
             onChange={handleChange}
           />
         </div>
-
         <div className={styles.editProfileBtn}>
           <Link to={`/profiles/${props.user.profile}`}>
             <button>Cancel</button>

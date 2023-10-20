@@ -43,9 +43,9 @@ const Signup = ({ handleAuthEvt }) => {
       errMsg = "Image must be in gif, jpeg/jpg, png, svg, or webp format"
       isFileInvalid = true
     }
-    
+
     setMessage(errMsg)
-    
+
     if (isFileInvalid) {
       imgInputRef.current.value = null
       return
@@ -84,16 +84,16 @@ const Signup = ({ handleAuthEvt }) => {
       <div className={styles.signupFormWrapper}>
         <form autoComplete="off" onSubmit={handleSubmit} className={styles.signupFormContainer}>
           <p className={styles.signupText}>
-            Ready for new destinations? 
+            Ready for new destinations?
             <br />
             Sign upbelow
           </p>
           <div className={styles.inputSignupWrapper}>
             <label className={styles.signupLabel}>
               Name
-              <input type="text" value={name} name="name" 
-              onChange={handleChange}
-              style={{color: 'rgba(245, 232, 216, 1) !important'}} 
+              <input type="text" value={name} name="name"
+                onChange={handleChange}
+                style={{ color: 'rgba(245, 232, 216, 1) !important' }}
               />
             </label>
           </div>
@@ -105,7 +105,7 @@ const Signup = ({ handleAuthEvt }) => {
                 value={email}
                 name="email"
                 onChange={handleChange}
-                style={{color: 'rgba(245, 232, 216, 1) !important'}}
+                style={{ color: 'rgba(245, 232, 216, 1) !important' }}
               />
             </label>
           </div>
@@ -134,9 +134,9 @@ const Signup = ({ handleAuthEvt }) => {
           <div className={styles.inputSignupWrapper}>
             <label className={styles.signupLabel}>
               Upload Photo
-              <input 
-                type="file" 
-                name="photo" 
+              <input
+                type="file"
+                name="photo"
                 onChange={handleChangePhoto}
                 ref={imgInputRef}
                 className={styles.signupImg}
@@ -147,14 +147,14 @@ const Signup = ({ handleAuthEvt }) => {
             <Link to="/" className={styles.cancelLink}>CANCEL</Link>
             <button
               className={styles.signupButton}
-              disabled={ isFormInvalid() || isSubmitted }
+              disabled={isFormInvalid() || isSubmitted}
             >
               {!isSubmitted ? 'Sign Up' : 'Sending...'}
             </button>
           </div>
         </form>
-          <div className={styles.signupImageWrapper}>
-          </div>
+        <div className={styles.signupImageWrapper}>
+        </div>
       </div>
     </div>
   )

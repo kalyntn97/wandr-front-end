@@ -7,7 +7,7 @@
 }
 
 .mainAboutContainer h1 {
-  font-weight: 100; 
+  font-weight: 100;
   font-size: 70px;
   margin-bottom: 5%;
   color: white;
@@ -69,7 +69,7 @@
   background-size: cover;
   background-position: center;
   text-align: center;
-  height: 18%; 
+  height: 18%;
   width: 100%;
   display: flex;
   align-items: center;
@@ -81,7 +81,7 @@
   background-image: url('../../assets/img/header-desert.jpg');
   background-size: cover;
   text-align: center;
-  height: 18%; 
+  height: 18%;
   width: 100%;
   display: flex;
   align-items: center;
@@ -106,7 +106,7 @@
 .headerAbout,
 .ourImages,
 .anotherHeader {
-  flex-basis: 45%; 
+  flex-basis: 45%;
 }
 
 .anotherHeader,
@@ -118,23 +118,23 @@
 }
 
 .anotherHeader span {
-  font-size: 60px; 
+  font-size: 60px;
 }
 
 .anotherHeader .team {
-  font-size: 20px; 
+  font-size: 20px;
   border-top: solid 1px black;
   padding-top: 20px;
 }
 
 .headerAbout span {
-  font-size: 60px; 
+  font-size: 60px;
   border-right: solid 1px black;
   padding-right: 20px;
 }
 
 .headerAbout {
-  font-size: 20px; 
+  font-size: 20px;
   padding-top: 80px;
 }
 
@@ -152,12 +152,11 @@
   margin-right: 20px;
   margin: 2%;
   line-height: 1.9;
-  break-inside: avoid-column; 
+  break-inside: avoid-column;
   margin-right: 5%;
   border-left: solid 1px black;
   border-bottom: solid 1px black;
-} 
-
+}
 
 .paragraphAbout.desert p {
   border-left: solid 1px #876e56;
@@ -180,7 +179,6 @@
   font-size: 15px;
   font-weight: 600;
 }
-
 
 .ourImages img {
   height: 100px;
@@ -206,17 +204,14 @@
 }
 
 .imageText {
-display: flex;
-flex-direction: column;
-justify-content: center;
-padding: 5%;
-margin-left: 7%;
-font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5%;
+  margin-left: 7%;
+  font-size: 15px;
 }
 
 .imageText a {
   text-decoration: none;
 }
-
-
-

@@ -11,16 +11,13 @@
   margin-top: 20px;
 }
 
-
 input[type="text"] {
   outline: none;
   padding: 10px;
   margin-right: 0px;
   width: 270px;
   height: 25px;
-  /* background-color: transparent; */
   font-style: italic;
-  /* border: solid 1px black; */
 }
 
 .searchIcon button {

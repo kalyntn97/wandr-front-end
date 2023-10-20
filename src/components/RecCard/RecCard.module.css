@@ -5,12 +5,12 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  border: 1px solid #ccc; 
+  border: 1px solid #ccc;
   padding: 10px;
   padding-bottom: 20px;
-  width: 400px; 
+  width: 400px;
   height: 500px;
-  background-color: #383230; 
+  background-color: #383230;
   color: white;
   overflow-y: auto;
 }
@@ -24,12 +24,12 @@
   width: 100px;
   height: 40px;
   cursor: pointer;
-  border-left: none; 
+  border-left: none;
   border-right: none;
   outline: none;
   background: transparent;
   text-transform: uppercase;
-  border-radius: 0; 
+  border-radius: 0;
   font-size: 10px;
   font-weight: 100;
   margin-top: 30px;
@@ -51,7 +51,7 @@
 .recCardContainer h4 {
   font-weight: 100;
   font-size: 20px;
-} 
+}
 
 .recCardContainer h2 {
   font-weight: 100;

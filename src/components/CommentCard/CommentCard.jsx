@@ -8,7 +8,6 @@ import styles from './CommentCard.module.css'
 
 const CommentCard = (props) => {
   const [showForm, setShowForm] = useState(false)
-
   const handleShowForm = () => {
     setShowForm(true)
   }

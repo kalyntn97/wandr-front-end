@@ -9,7 +9,7 @@ const EditPost = (props) => {
   const { state } = useLocation()
   const [formData, setFormData] = useState(state)
   const { theme, setTheme } = useTheme()
-  
+
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value })
   }
@@ -65,7 +65,7 @@ const EditPost = (props) => {
         </div>
         <div className={styles.editPostWrapper}>
           <label htmlFor="public-input" className={`${styles.makePublicLabel} ${styles[theme]}`}>Make Public?</label>
-          <input 
+          <input
             type="checkbox"
             name="public"
             id="public-input"
